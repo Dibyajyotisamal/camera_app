@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #CEC0FC;
+    padding: 10px;
+
+}
+
+.capture1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.btn {
+    padding: 5px 5px;
+    background-color: #6460aa;
+    color: rgb(231, 219, 219);
+}
+
+.bg-color {
+    background: #4D4D4D;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 10px #CEC0FC;
+
+}
+
+.filter {
+    border: 0px solid white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #f60c0c, #6460aa);
+
+}
+
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6460aa;
+}
+
+.cams {
+    margin: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+#snap {
+    background-color: #f60c0c;
+    color: #fff;
+    border: 2px solid #f60c0c;
+    border-radius: 5px;
+    padding: 7px 5px;
+
+}
+
+.cam2 {
+    display: flex;
+    flex-direction: column;
+}

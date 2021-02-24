@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container bg-color">
+    <div class="container text-center">
+        <h1>Camera App</h1>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row cams">
+            <div class="col-md-4">
+                <video id='video' width='480' height='320' autoplay></video>
+            </div>
+            <div class="col-md-4 cam2">
+                <canvas id="canvas" width='480' height='320'></canvas>
+            </div>
+        </div>
+    </div>
+    <div class="container text-center capture1">
+        <button id="snap" class='btn btn-danger'>CAPTURE</button>
+    </div>
+    <div class="container filter">
+        <h2>Filter</h2>
+        <div class="row buttons">
+            <div class="col-md-2">
+                <button class="btn btn-info"id='blur'>BLUR</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-info"id='brightness'>BRIGHTNESS</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-info"id='contrast'>CONTRAST</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-info"id='invert'>INVERT</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-info"id='saturate'>SATURATE</button>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-info"id='sepia'>SEPIA</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
