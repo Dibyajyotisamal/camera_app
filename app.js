@@ -47,7 +47,7 @@ contrast.addEventListener('click', function () {
     canvas.style.filter = 'contrast(200%)';
 });
 invert.addEventListener('click', function () {
-    canvas.style.filter = 'invert(20%)';
+    canvas.style.filter = 'invert(100%)';
 });
 saturate.addEventListener('click', function () {
     canvas.style.filter = 'saturate(600%)';
